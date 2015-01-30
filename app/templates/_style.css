@@ -1,0 +1,15 @@
+/*
+Theme Name: <%= NombreTema %>
+Theme URI: <%= ThemeURI %>
+Author: <%= Autor %>
+Author URI: <%= AuthorURI %>
+Description: <%= Descripcion %>
+Version: <%= VersionTema %>
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: <%= TagsTema %>
+Text Domain: <%= NombreTema %>
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/

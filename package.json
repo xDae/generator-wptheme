@@ -1,0 +1,38 @@
+{
+  "name": "generator-proyectowp",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "xDae/generator-proyectowp",
+  "author": {
+    "name": "Jose Miguel Bejarano",
+    "email": "yo@josemiguel.org",
+    "url": "https://github.com/xDae"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^0.5.0",
+    "git-clone": "0.0.4",
+    "inquirer": "^0.8.0",
+    "yeoman-generator": "^0.18.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
