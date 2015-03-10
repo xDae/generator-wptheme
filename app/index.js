@@ -32,7 +32,7 @@ module.exports = yeoman.generators.Base.extend({
             {
                 name: 'ThemeURI',
                 message: 'URL del tema',
-                default: 'http://www.' + this.NombreTema + '.com'
+                default: ''
             },
             {
                 name: 'Autor',
@@ -42,7 +42,7 @@ module.exports = yeoman.generators.Base.extend({
             {
                 name: 'AuthorURI',
                 message: 'URL del Autor',
-                default: 'http://www.' + this.Autor + '.com'
+                default: ''
             },
             {
                 name: 'Descripcion',
@@ -196,7 +196,7 @@ module.exports = yeoman.generators.Base.extend({
             // Miniatura del tema
             this.fs.copy(
                 this.templatePath('screenshot.png'),
-                this.destinationPath(this.NombreTema+'.png')
+                this.destinationPath(this.NombreTema+'/screenshot.png')
             );
 
             this.template('_functions.php', this.NombreTema+'/functions.php');
